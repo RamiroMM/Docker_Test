@@ -4,7 +4,7 @@ RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
 # COPY **/*.html /usr/local/tomcat/webapps/mydockerapp
  
-ADD **/*.html /usr/local/tomcat/webapps/mydockerapp
+ADD https://raw.githubusercontent.com/RamiroMM/Docker_Test/main/index.html /usr/local/tomcat/webapps/mydockerapp
 
 # RUN if [ -f *.html ] ; then echo "File exists"; else echo "File not found"; fi
  
