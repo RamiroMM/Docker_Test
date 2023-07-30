@@ -4,7 +4,7 @@ RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
 # COPY **/*.html /usr/local/tomcat/webapps/mydockerapp
  
-ADD **/*.html /usr/local/tomcat/webapps/mydockerapp
+ADD **/*.html /tmp
  
 EXPOSE 8080
  
