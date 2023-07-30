@@ -2,7 +2,7 @@ FROM tomcat:9.0
 
 RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
-RUN cd /usr/local/tomcat/webapps/ROOT
+RUN cd /usr/local/tomcat/webapps/mydockerapp
 
 RUN ls
 
