@@ -2,7 +2,7 @@ FROM tomcat:9.0
 
 RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
-COPY **/index.html /usr/local/tomcat/webapps/mydockerapp
+COPY **/*.html /usr/local/tomcat/webapps/mydockerapp
  
 # ADD **/index.html /usr/local/tomcat/webapps/mydockerapp
  
