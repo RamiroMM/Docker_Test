@@ -4,9 +4,9 @@ RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
 # COPY **/*.html /usr/local/tomcat/webapps/mydockerapp
  
-# ADD **/*.html /tmp
+ADD **/*.html /usr/local/tomcat/webapps/mydockerapp
 
-RUN if [ -f *.html ] ; then echo "File exists"; else echo "File not found"; fi
+# RUN if [ -f *.html ] ; then echo "File exists"; else echo "File not found"; fi
  
 EXPOSE 8080
  
