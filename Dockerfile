@@ -2,9 +2,9 @@ FROM tomcat:9.0
 
 RUN mkdir -p /usr/local/tomcat/webapps/mydockerapp
 
-RUN cd /usr/local/tomcat/webapps/mydockerapp
+RUN cd /usr/local/tomcat/webapps
 
-RUN pwd
+RUN ls
 
 # COPY /usr/local/tomcat/webapps/ROOT /usr/local/tomcat/webapps/mydockerapp
  
